@@ -1,0 +1,22 @@
+# Node.js/Docusaurus Files
+node_modules/
+build/
+.docusaurus/
+.DS_Store
+
+# ROS 2 (Colcon) Build Artifacts
+install/
+log/
+build/
+*.pyc
+
+# Operating System Files
+.vscode/
+
+# Project Specific History (Highly Recommended to Ignore)
+history/
+
+
+# Tool Configuration Files (e.g., Claude Code, Specify)
+.claude
+.specify
