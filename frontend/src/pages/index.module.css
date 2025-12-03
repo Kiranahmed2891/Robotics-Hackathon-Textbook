@@ -1,0 +1,25 @@
+/* frontend/src/pages/index.module.css */
+.contentSection {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+  width: 100%;
+  background-color: var(--ifm-background-color);
+}
+
+.chatWrapper {
+  width: 100%;
+  max-width: 800px; /* Chat window ki max width */
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  color: var(--ifm-color-secondary-dark);
+  margin-bottom: 1.5rem;
+}

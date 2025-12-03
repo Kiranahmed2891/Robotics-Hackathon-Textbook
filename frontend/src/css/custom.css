@@ -1,0 +1,7 @@
+/* frontend/src/css/custom.css */
+/* Add global styles or overrides here */
+
+/* Ensure the main container is centered */
+.main-wrapper {
+  padding-top: 0 !important;
+}

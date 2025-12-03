@@ -20,3 +20,37 @@ history/
 # Tool Configuration Files (e.g., Claude Code, Specify)
 .claude
 .specify
+
+
+# -------------------------------------------------------------------
+# Environment Variables & Secrets
+# *Aapki .env file mein API keys aur Qdrant credentials hain*
+.env
+
+# -------------------------------------------------------------------
+# Python Dependencies
+# Virtual environments:
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# -------------------------------------------------------------------
+# Large Generated Files (Qdrant & Embeddings)
+# Embedding model jo localy download hua hai
+.cache/
+
+# Qdrant client ke temporary files (agar local storage use ho raha ho)
+qdrant/
+qdrant_storage/
+
+# -------------------------------------------------------------------
+# Python Testing/Build Artifacts
+*.egg-info/
+dist/
+build/
+
+# -------------------------------------------------------------------
+# IDE Files (Optional, but recommended)
+.idea/
+.vscode/
